@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="jquery.js"></script>
+        <!--<script type="text/javascript" src="getData.js"></script>-->
+        <!--<script type="text/javascript" src="getClock.js"></script>-->
+        <script type="text/javascript" src="index.js"></script>
+        <style type="text/css">
+    #marquee {
+	position: relative;
+	width: 300px;
+	height: 30px;
+	overflow: hidden;
+	outline: 1px solid gray;
+    }
+
+    #marqueeText {
+	position: absolute;
+	top:-20px;
+	width: 300px;
+	height: 30px;
+	text-align:center;
+	-webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+	-webkit-transition: all linear 0.5s;
+	transition: all linear 0.5s;
+    }
+    
+</style>
+    </head>
+    <body>
+    <marquee id="txt" width="300" height="30" scrollamount="0" loop="-1">
+        &emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp
+    </marquee>
+    <div id="marquee">
+		<div id="marqueeText">Rolling Clouds</div>
+	</div>
+    <div id="clock" width="300" height="30"></div>
+    </body>
+</html>
